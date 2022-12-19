@@ -7,12 +7,12 @@ const ctx = canvas.getContext("2d")
 canvas.height = 1000
 canvas.width = canvas.height * 16 / 10
 
-const lowerBound = new ground()
+const floor = new ground()
 
 const frame = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-    lowerBound.draw()
+    floor.draw()
 
     window.requestAnimationFrame(frame)
 }

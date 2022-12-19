@@ -2,5 +2,7 @@
 
 
 class generator {
-    
+    constructor(params) {
+        
+    }
 }
