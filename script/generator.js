@@ -1,6 +1,6 @@
 /** @type {HTMLCanvasElement} */
 
 
-class limb {
+class generator {
     
 }
